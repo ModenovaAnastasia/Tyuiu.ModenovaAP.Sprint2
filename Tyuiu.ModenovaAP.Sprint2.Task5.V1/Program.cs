@@ -19,7 +19,7 @@ namespace Tyuiu.ModenovaAP.Sprint2.Task5.V1
             Console.WriteLine("* Тема: Оператор switch                                                   *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #1                                                              *");
-            Console.WriteLine("* Выполнила Моденова А. П. | ИИПб-23-2                                    *");
+            Console.WriteLine("* Выполнила Моденова А. П. | ИИПб-23-3                                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая, используя оператор switch, по номеру       *");
