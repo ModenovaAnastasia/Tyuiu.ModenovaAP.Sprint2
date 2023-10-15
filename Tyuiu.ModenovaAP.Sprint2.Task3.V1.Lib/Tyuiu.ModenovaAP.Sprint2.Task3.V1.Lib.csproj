@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{036E9AF0-A965-404B-8A37-7EDCF4423A3B}</ProjectGuid>
+    <ProjectGuid>{82F47409-DC0B-4C47-A96F-80B2F90E641D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tyuiu.ModenovaAP.Sprint2.Task3.V1.Lib</RootNamespace>

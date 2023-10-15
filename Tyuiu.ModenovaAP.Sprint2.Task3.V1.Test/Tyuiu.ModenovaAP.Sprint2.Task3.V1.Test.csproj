@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{86C56FC3-2115-46CA-AB45-DCA8B4FBE502}</ProjectGuid>
+    <ProjectGuid>{D7F9B665-D2A5-4B73-8FAA-8CDAF21E0C00}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tyuiu.ModenovaAP.Sprint2.Task3.V1.Test</RootNamespace>
@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.ModenovaAP.Sprint2.Task3.V1.Lib\Tyuiu.ModenovaAP.Sprint2.Task3.V1.Lib.csproj">
-      <Project>{036e9af0-a965-404b-8a37-7edcf4423a3b}</Project>
+      <Project>{82f47409-dc0b-4c47-a96f-80b2f90e641d}</Project>
       <Name>Tyuiu.ModenovaAP.Sprint2.Task3.V1.Lib</Name>
     </ProjectReference>
   </ItemGroup>

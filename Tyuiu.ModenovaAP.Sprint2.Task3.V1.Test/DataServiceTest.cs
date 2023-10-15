@@ -12,33 +12,38 @@ namespace Tyuiu.ModenovaAP.Sprint2.Task3.V1.Test
         {
             DataService ds = new DataService();
             double x = 1;
+            double wait = -8.741;
             double res = ds.Calculate(x);
-            double wait = 13;
             Assert.AreEqual(wait, res);
         }
         [TestMethod]
         public void ValidCondition2()
         {
             DataService ds = new DataService();
-            double x = 0;
+            double x = 2;
+            double wait = -17.027;
             double res = ds.Calculate(x);
-            Assert.AreEqual(-1, res);
+            Assert.AreEqual(wait, res);
         }
+
         [TestMethod]
         public void ValidCondition3()
         {
             DataService ds = new DataService();
-            double x = -1;
+            double x = 2;
+            double wait = -17.027;
             double res = ds.Calculate(x);
-            Assert.AreEqual(0.25, res);
+            Assert.AreEqual(wait, res);
         }
+
         [TestMethod]
         public void ValidCondition4()
         {
             DataService ds = new DataService();
-            double x = -16;
+            double x = -9;
+            double wait = -98.999;
             double res = ds.Calculate(x);
-            Assert.AreEqual(-175.938, res);
+            Assert.AreEqual(wait, res);
         }
     }
 }
